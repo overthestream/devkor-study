@@ -1,0 +1,15 @@
+.content-box {
+    background-color: greenyellow;
+}
+
+.chapter-name{
+    border-style: solid;
+}
+
+#current-chapter {
+    color: red;
+}
+
+.horizontal-lists{
+    color: blue;
+}
