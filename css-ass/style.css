@@ -1,15 +1,15 @@
-.content-box {
+#content-box {
     background-color: greenyellow;
 }
 
 .chapter-name{
-    border-style: solid;
+    font-weight: bold;
+}
+
+.chapter .horizontal-lists {
+    color: blue;
 }
 
 #current-chapter {
     color: red;
-}
-
-.horizontal-lists{
-    color: blue;
 }
