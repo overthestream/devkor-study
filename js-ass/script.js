@@ -65,9 +65,14 @@ const checkGuess = () => {
 
 
   guesses.textContent += userGuess + ' ';
-  // TODO 
-  // 입력값에 따라 , isLow, isHigh, Collect 등의 함수를 호출 
-  // guess Count가 10이 될 경우 game over
+  if(guessCount > 10)
+    gameOver();
+  else if(userGuess === randomNumber)
+    collect();
+  else if(userGuess > randomNumber)
+    isHigh();
+  else
+    isLow();
   guessCount++;
   guessField.value = '';
   guessField.focus();
