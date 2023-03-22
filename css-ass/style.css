@@ -1,0 +1,17 @@
+#content-box {
+    font-weight: bold;
+    background-color: greenyellow;
+}
+
+#content-box .horizontal-lists {
+    color:blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+#box-layout {
+    padding: 0cm 10cm;
+    font-size: small;
+}
