@@ -11,3 +11,7 @@ h1 {
     text-align: center;
 }
 
+#box-layout {
+    padding: 0cm 10cm;
+    font-size: small;
+}
