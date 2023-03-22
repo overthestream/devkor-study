@@ -65,10 +65,10 @@ const checkGuess = () => {
 
 
   guesses.textContent += userGuess + ' ';
-  if(guessCount > 10)
-    gameOver();
-  else if(userGuess === randomNumber)
+  if(userGuess === randomNumber)
     collect();
+  else if(guessCount === 10)
+    gameOver();
   else if(userGuess > randomNumber)
     isHigh();
   else
