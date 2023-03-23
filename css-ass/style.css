@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+#box-layout{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#content-box{
+    background-color: greenyellow;
+}
+
+div.chapter > div.horizontal-lists{
+    color: blue;
+}
+
+div.chapter-name{
+    font-weight: bold;
+}#current-chapter{
+    color: red;
+}
+
