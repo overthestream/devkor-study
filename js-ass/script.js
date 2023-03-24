@@ -82,6 +82,7 @@ const checkGuess = () => {
   else {
     gameOver();
   }
+  
   guessCount++;
   guessField.value = '';
   guessField.focus();
