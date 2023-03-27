@@ -5,6 +5,16 @@
   <title>CSS Exercise 1</title>
   <meta charset="utf-8">
   <link rel="stylesheet" text="type/css" href="./style.css">
+  <style>
+    .chapter {
+      background-clip : content-box;
+      background-color : rgb(16, 212, 16);
+    }
+    #box-layout {
+      background-color: rgb(16, 212, 16);
+    }
+
+  </style>
 </head>
 <bodv>
   <h1>Chapters</h1>
@@ -16,18 +26,18 @@
       <div class="chapter">
         <div class="chapter-name">Ch 2. HTML: The Basic Structure</div>
         <div class="horizontal-lists">
-          Introducing HTML / Basic Structure of HTML / Commonly Used HTML Tags </div>
+          <p style = "color :blue">Introducing HTML / Basic Structure of HTML / Commonly Used HTML Tags</p></div>
       </div><br>
       <div class="chapter" id="current-chapter">
-        <div class="chapter-name">Ch 3. CSS: Desiging HTML</div>
+        <div class="chapter-name"><p style = "color : red">Ch 3. CSS: Desiging HTML</p></div>
         <div class="horizontal-lists">
-          Introducing CSS / Basic Structure of CSS / Selectors </ul>
+            <p style = "color :blue">Introducing CSS / Basic Structure of CSS / Selectors</p></ul>
         </div><br>
 
         <div class="chapter">
           <div class="chapter-name">Ch 4. Basics of Javascript</div>
           <div class="horizontal-lists">
-            Introducing Javascript / Declaration of Variables / Data Types
+            <p style = "color : blue">Introducing Javascript / Declaration of Variables / Data Types</p>
           </div>
         </div>
       </div>
