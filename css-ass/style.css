@@ -1,0 +1,21 @@
+#content-box {
+    background-color: greenyellow;
+    font-weight : bold;
+}
+
+h1{
+    text-align: center;
+}
+
+#box-layout{
+    padding: 0em 10em;
+    font-size: small;
+}
+
+#content-box .horizontal-lists {
+    color: blue;
+}
+
+#current-chapter > .chapter-name{
+    color :red;
+}
