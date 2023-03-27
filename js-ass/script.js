@@ -65,13 +65,13 @@ const checkGuess = () => {
   guesses.textContent += userGuess + ' ';
 
   if (userGuess === randomNumber) {
-    console.log(collect);
-  } else if (guessCOunt === 10) {
-    console.log(gameOver);
+    collect();
+  } else if (guessCount === 10) {
+    gameOver();
   } else if (userGuess < randomNumber) {
-    console.log(islow);
+    isLow();
   } else if (userGuess > randomNumber) {
-    console.log(ishigh);
+    isHigh();
   }
 
   // 입력값에 따라 , isLow, isHigh, Collect 등의 함수를 호출 
