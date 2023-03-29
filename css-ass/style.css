@@ -1,0 +1,7 @@
+h1{text-align: center;}
+div.chapter-name{font-weight:bold;}
+#content-box{ 
+    background-color:greenyellow;
+}
+div.chapter>div.horizontal-lists{color:blue;}
+#current-chapter{color:red;}
