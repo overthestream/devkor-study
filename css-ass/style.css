@@ -1,0 +1,27 @@
+*{
+    font-family:pt sans;
+}
+
+#content-box{
+    
+    background-color:greenyellow;
+}
+
+#current-chapter > .chapter-name{
+    color:red;
+}
+
+#content-box .horizontal-lists{
+    color: blue;
+}    
+
+#content-box .chapter-name{
+    font-weight:bold;
+}
+
+h1{
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+    margin-block-end: 1.0em;
+    text-align:center;
+}

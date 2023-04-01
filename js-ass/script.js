@@ -59,11 +59,26 @@ const isHigh = () => {
 
 const checkGuess = () => {
   const userGuess = Number(guessField.value);
+  
   if (guessCount === 1) {
     guesses.textContent = 'Previous guesses: ';
   }
 
+  if(guessCount===10){
+    gameOver();
+  }
 
+  else if(userGuess===randomNumber){
+    collect();
+  }
+
+  else if(userGuess>randomNumber){
+    isHigh();
+  }
+
+  else if(userGuess<randomNumber){
+    isLow();
+  }
   guesses.textContent += userGuess + ' ';
   // TODO 
   // 입력값에 따라 , isLow, isHigh, Collect 등의 함수를 호출 
@@ -72,6 +87,5 @@ const checkGuess = () => {
   guessField.value = '';
   guessField.focus();
 }
-
 guessSubmit.addEventListener('click', checkGuess);
 
